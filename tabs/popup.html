@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Switcher</title>
+  <style>
+    body {
+      width: 300px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    .tab-item {
+      padding: 8px;
+      margin: 5px 0;
+      background: #f5f5f5;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .tab-item:hover {
+      background: #e0e0e0;
+    }
+    .tab-item.active {
+      background: #0078d4;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h3>Open Tabs</h3>
+  <div id="tabs-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Simple Tab Switcher",
+    "version": "1.0",
+    "description": "View and switch between open tabs",
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
